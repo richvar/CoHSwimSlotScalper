@@ -106,6 +106,7 @@ carriers = {
     'sprint':   '@page.nextel.com'
 }
 
+#Texts user confirmation of reservation, with info of time, date, pool, and swimmer
 def send(message):
         # Replace number in main function
     to_number = phonenumberSMS + '{}'.format(carriers[phonenumbercarrier])
