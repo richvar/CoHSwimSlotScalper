@@ -12,7 +12,7 @@ import time
 import smtplib
 
 #Swim Lane Reservation Scalper Bot
-#Automates purchasing of City of Henderson pool swim lane reservations upon release to public
+#Automates purchasing of City of Henderson pools' swim lane reservations upon release to public
 
 ######################################################################################################################
 
