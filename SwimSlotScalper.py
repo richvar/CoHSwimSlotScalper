@@ -75,12 +75,6 @@ phonenumberSMS = 'X' #Insert phone number here, no dashes or parentheses
 phonenumbercarrier = 'x' #choose from the following: att, tmobile, verizon, or sprint (Case sensitive, please follow as shown)
 
 ######################################################################################################################
-################################    DO NOT EDIT PAST THIS POINT     ##################################################
-################################    DO NOT EDIT PAST THIS POINT     ##################################################
-################################    DO NOT EDIT PAST THIS POINT     ##################################################
-################################    DO NOT EDIT PAST THIS POINT     ##################################################
-################################    DO NOT EDIT PAST THIS POINT     ##################################################
-######################################################################################################################
 
 #These are the two places where Firefox may be installed, please put these into binary variable if default doesn't work
 #C:/Users/INSERT_USERNAME_HERE/AppData/Local/Mozilla Firefox/firefox.exe
@@ -95,6 +89,12 @@ if (browser == 'Firefox'):
 if (browser == 'Chrome'):
     driver = webdriver.Chrome() #Insert correct path to Chrome exe if default doesn't work
 
+######################################################################################################################
+################################    DO NOT EDIT PAST THIS POINT     ##################################################
+################################    DO NOT EDIT PAST THIS POINT     ##################################################
+################################    DO NOT EDIT PAST THIS POINT     ##################################################
+################################    DO NOT EDIT PAST THIS POINT     ##################################################
+################################    DO NOT EDIT PAST THIS POINT     ##################################################
 ######################################################################################################################
 
 #Establishes system for sending messages, DO NOT EDIT
