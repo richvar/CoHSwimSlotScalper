@@ -1,0 +1,61 @@
+Day of Week Legend:
+
+Monday = 'M'
+Tuesday = 'Tu'
+Wednesday = 'W'
+Thursday = 'Th'
+Friday = 'F'
+Saturday = 'Sa'
+
+#Check City of Henderson Rectrac for updates and most accurate listings:
+#Multigen - https://web2.myvscloud.com/wbwsc/nvhendersonwt.wsc/search.html?display=listing&location=hmgc&module=AR&search=yes&type=reservelane 
+#Whitney - https://web2.myvscloud.com/wbwsc/nvhendersonwt.wsc/search.html?display=listing&location=wrip&module=AR&search=yes&type=reservelane 
+#Heritage - https://web2.myvscloud.com/wbwsc/nvhendersonwt.wsc/search.html?display=listing&location=hpac&module=AR&search=yes&type=reservelane 
+
+
+Database of current times/swim slots for each pool:
+HMIP:                                                 HMCP:  
+    'HMIP 6:05-7:05am'                                    'HMCP 6:00-7:00am'
+    'HMIP 7:30-8:30am'                                    'HMCP 7:30-8:30am'
+    'HMIP 9:30-10:30am'                                   'HMCP 9:00-10:00am'
+    'HMIP 11:30-12:30PM'                                  'HMCP 10:30-11:30am'
+    'HMIP 1:00-2:00pm'                                    'HMCP noon-1:00pm'
+    'HMIP 2:30-3:30pm'                                    'HMCP 1:30-2:30pm'  
+    'HMIP Family Swim – No Lap Swim'                          
+                                                      Special Saturday Listings:
+                                                          'HMCP 6:00-7:00am (SAT)'
+                                                          'HMCP 7:30-8:30am (SAT)'
+                                                          'HMCP 9:00-10:00am (SAT)'
+                                                          'HMCP 10:30-11:30am (SAT)'
+
+
+WRIP:                                                 HPAC:
+    'WRIP 6:00-7:00am'                                    'HPAC 6:00-7:00am'
+    'WRIP 7:30-8:30am'                                    'HPAC 7:30-8:30am'
+    'WRIP 9:00-10:00am'                                   'HPAC 9:00-10:00am'
+    'WRIP 10:30-11:30am'                                  'HPAC 10:30-11:30am' 
+    'WRIP 12:00-1:00pm'                                   'HPAC 12:00-1:00pm'
+    'WRIP 1:30-2:30pm'                                    'HPAC 1:30-2:30pm'
+    'WRIP 3:00-4:00pm'                                    'HPAC 3:00-4:00pm'
+    'WRIP 4:30-5:30pm'                                    'HPAC 4:30--5:30pm'   
+    'WRIP Family Swim – No Lap Swim'                      'HPAC Water Walking Lane Only 6:00-7:00am'  
+                                                          'HPAC Water Walking Lane Only 7:30-8:30am'
+    Special Saturday Listings:                            'HPAC Water Walking Lane Only 9:00-10:00am'      
+    'WRIP 7:00-8:00am (SAT)'                              'HPAC Water Walking Lane Only 10:30-11:30am'             
+    'WRIP 9:00-10:00am (SAT)'                             'HPAC Water Walking Lane Only 12:00-1:00pm'
+    'WRIP 11:00am-noon (SAT)'                             'HPAC Water Walking Lane Only 1:30-2:30pm'
+                                                          'HPAC Water Walking Lane Only 3:00-4:00pm'
+                                                          'HPAC Water Walking Lane Only 4:30-5:30pm'
+
+                                                      Special Saturday Listings:
+                                                          'HPAC 6:00-7:00am (SAT)'
+                                                          'HPAC 7:30-8:30am (SAT)'
+                                                          'HPAC 9:00-10:00am (SAT)'
+                                                          'HPAC 10:30-11:30am (SAT)'
+                                                          'HPAC Water Walking Lane Only 6:00-7:00am (SAT)'
+                                                          'HPAC Water Walking Lane Only 7:30-8:30am (SAT)'
+                                                          'HPAC Water Walking Lane Only 9:00-10:00am (SAT)'
+                                                          'HPAC Water Walking Lane Only 10:30-11:30am (SAT)'
+
+
+
