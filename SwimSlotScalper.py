@@ -127,7 +127,7 @@ def send(message):
 counter = 1     #Helps iterate between pages in change_page()
 thingsincart = 0    #Keeps track of whether wanted slot has been bought in begin_buy()
 familymembercounter = 1     #Helps iterate through family members based on their xpath in choose_family_member()
-calendardate = ''
+calendardate = ''          #Used to give date of reservation when sending SMS to user
 wantedSlot = slotDescription + ' on ' + day #creates wantedSlot to search for, DO NOT EDIT
 
 #logs into City of Henderson Webtrac website
