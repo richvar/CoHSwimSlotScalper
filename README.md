@@ -24,4 +24,4 @@ Must also install 'geckodriver' from Selenium website for proper browser interac
 
 1. Install Selenium package and respective browser driver
 2. Fill in all variables marked with 'X' in SwimSlotScalper.py with info requested
-3. Run
+3. Run program
