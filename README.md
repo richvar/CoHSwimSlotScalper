@@ -4,7 +4,7 @@ Automates purchasing of City of Henderson pools' swim lane reservations upon rel
 
 ## Seen in action here:
 
-Click image to go to YouTube link
+Click thumbnail to go to YouTube link:
 
 [![](http://img.youtube.com/vi/QlVPhGkXQu0/0.jpg)](http://www.youtube.com/watch?v=QlVPhGkXQu0)
 
