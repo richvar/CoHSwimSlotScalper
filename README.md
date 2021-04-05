@@ -16,7 +16,7 @@ Must also install 'geckodriver' from Selenium website for proper browser interac
 
 * Reserves swim lane reservations, one lane/swimmer at a time per instance
 * If wanted swim slot is unavailable, will idle and refresh until available
-* Texts user confirmation of lane reservations, as seen below: <details> <summary></summary>
+* Texts user confirmation of lane reservations, as seen below: <details> <summary>Expand photo</summary>
 ![automated like clockwork](https://i.imgur.com/IFd47qX.jpg)
 </details>
 
