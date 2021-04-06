@@ -134,6 +134,7 @@ wantedSlot = slotDescription + ' on ' + day #creates wantedSlot to search for, D
 
 #logs into City of Henderson Webtrac website
 def login():
+    print('Logging in...')
     login_link = driver.find_element_by_id('menu_myaccount')
     login_link.click()
     username_box = driver.find_element_by_id('weblogin_username')
@@ -153,16 +154,19 @@ def init_press():
 
 #Chooses the Multigen and its pools to look for swim slots
 def choose_multigen():
+    print('Chose Multigen pool...')
     multigen_link = driver.find_element_by_xpath('//a[@href="search.html?display=listing&location=hmgc&module=AR&search=yes&type=reservelane"]')
     multigen_link.click() 
 
 #Chooses Whitney Ranch and its pool to look for swim slots
 def choose_whitney_ranch():
+    print('Chose Whitney Ranch pool...')
     whitney_ranch_link = driver.find_element_by_xpath('//a[@href="search.html?display=listing&location=wrip&module=AR&search=yes&type=reservelane"]')
     whitney_ranch_link.click()
 
 #chooses Heritage and its pools to look for swim slots
 def choose_heritage():
+    print('Chose Heritage pool...')
     heritage_link = driver.find_element_by_xpath('//a[@href="search.html?display=listing&location=hpac&module=AR&search=yes&type=reservelane"]')
     heritage_link.click()
 
@@ -190,6 +194,7 @@ def add_to_cart(resultnum):
 
 #When finished adding items to cart, will go to family selection screen
 def go_to_family_selection():
+    print('Going to swimmer selection')
     element_present = EC.presence_of_element_located((By.XPATH, '/html/body/div[1]/div[2]/div/div/div/button[2]'))
     timeout = 10
     WebDriverWait(driver, timeout).until(element_present)
@@ -211,12 +216,17 @@ def choose_family_member():
         if familymember.lower() in family_member_select.text.lower():
             family_member_checkbox = driver.find_elements_by_xpath('//button[@role="checkbox"]')[familymembercounter - 1] 
             family_member_checkbox.click()
+            print('Chose Swimmer: ' + str(familymember))
             family_clicked = True
         else:
             familymembercounter += 1
     
 def fill_out_waivers():
     def go_to_waivers():
+        print('Filling out waivers...')
+        element_present = EC.presence_of_element_located((By.ID, 'button201'))
+        timeout = 10
+        WebDriverWait(driver, timeout).until(element_present)
         continue_button = driver.find_element_by_id('button201')
         continue_button.click()
     
@@ -250,14 +260,18 @@ def fill_out_waivers():
 
     select = driver.find_element_by_id('processingprompts_buttoncontinue')
     select.click()
+    
+    print('Filled out waivers...')
 
 #Goes to checkout after filling out waivers
 def proceed_to_checkout():
+    print('Proceeding to checkout')
     select = driver.find_element_by_id('webcart_buttoncheckout')
     select.click()
 
 #Enters basic billing info if not already filled out by WebTrac, 
 def enter_billing_info():
+    print('Entering billing info...')
     firstname = driver.find_element_by_id('webcheckout_billfirstname')
     if firstname.get_attribute(''):
         firstname.click()
@@ -289,6 +303,7 @@ def enter_billing_info():
 #Enters payment info regarding credit card and address
 #This is required only if swimmer does not have a membership tied to their name in RecTrac
 def enterpaymentinfo():
+    print('Entering payment info...')
     #Enters card payment method
     select = Select(driver.find_element_by_id('webcheckout_requiredmethod'))
     select.select_by_visible_text(str(cardpaymentmethod))
