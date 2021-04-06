@@ -126,6 +126,7 @@ def send(message):
 
 #Global variables
 counter = 1     #Helps iterate between pages in change_page()
+not_available_counter = 1 #Keeps track of how many times program has iterated through unavailable slot, could get confusing after some time running in terminal
 thingsincart = 0    #Keeps track of whether wanted slot has been bought in begin_buy()
 familymembercounter = 1     #Helps iterate through family members based on their xpath in choose_family_member()
 calendardate = ''          #Used to give date of reservation when sending SMS to user
@@ -389,6 +390,7 @@ def change_page():
 def choose_slot():
     global calendardate
     global counter
+    global not_available_counter
     slot_times = []
     slot_availability = []
     day_of_week_letter = []
@@ -423,7 +425,9 @@ def choose_slot():
 
             #Tells user that slot is not yet available, will loop through pages until slot becomes available in beginbuy()
             elif (slot_availability[i-1].text == 'Unavailable'):
-                print((description[i - 1].text + ' on ' + day_of_week_letter[i - 1].text + ' ' + date[i - 1].text) + ' is not available yet')
+                print((description[i - 1].text + ' on ' + day_of_week_letter[i - 1].text + ' ' + date[i - 1].text) + ' is not available yet ' + '(' + str(not_available_counter) + ')')
+                not_available_counter += 1
+                
 
 #process done on each page, choosing slots, then going to next page
 def iteration():
